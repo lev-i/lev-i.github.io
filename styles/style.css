@@ -1,4 +1,4 @@
-﻿html {
+﻿﻿html {
     /* font-size 62.5% makes 1rem equal 10px for easy size calculations. */
     font-size: 62.5%;
     font-family: Helvetica,Helvetica-Normal sans-serif;
@@ -8,14 +8,14 @@
 body {
     margin: 40px 20px;
     /* Default font-size to about 18px */
-    font-size: 1.8rem;
+    font-size: 15px;
 }
 
 .container {
     padding: 0 1rem;
     max-width: 94rem;
     /* Horizontally center containers */
-    margin-left: 50px
+    margin-left: 10px
 }
 
 nav {
@@ -30,18 +30,19 @@ nav {
     }
 
 #sidebar h1 {
-  font-size: 20px;
-  margin: 5px 0 20px 0; }
+    font-size: 20px;
+    margin: 5px 0 20px 0;
+}
 
 h1 {
-  border-bottom: 1px;
-  font-weight: 900;
-  font-size: 35px;
-  margin: 15px 0 15px 0;
-  line-height: 54px;
-  clear: left;
-  display: inline-block;
-  width: 100%;
-  max-width: 680px;
-  /* width: auto; */
+    border-bottom: 1px;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+    line-height: 54px;
+    clear: left;
+    display: inline-block;
+    width: 100%;
+    max-width: 680px;
+    /* width: auto; */
 }
