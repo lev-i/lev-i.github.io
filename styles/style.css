@@ -34,6 +34,10 @@ nav {
     margin: 5px 0 20px 0;
 }
 
+ul.ba {
+    list-style-type: none;
+}
+
 h1 {
     border-bottom: 1px;
     font-weight: 900;
@@ -45,4 +49,5 @@ h1 {
     width: 100%;
     max-width: 680px;
     /* width: auto; */
+    list-style-type: none;
 }
