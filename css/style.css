@@ -1,0 +1,20 @@
+﻿﻿html {
+    font-size: 82.5%;
+    font-family: kepler-std;
+    background-color: #f9f8e9;
+}
+
+body {
+    margin: 40px 20px;
+    font-size: 18px;
+}
+
+.container {
+    padding: 7rem;
+    max-width: 94rem;
+}
+
+ul.ba {
+    list-style-type: none;
+}
+
