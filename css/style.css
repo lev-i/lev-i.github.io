@@ -1,16 +1,59 @@
 ﻿﻿html {
-    font-size: 82.5%;
-    font-family: kepler-std;
-    background-color: #f9f8e9;
+    font-family: kepler;  
 }
 
 body {
-    margin: 40px 20px;
-    font-size: 18px;
+    font-size: 1.3rem;
+    background-color: #fffbeb;
+    
+}
+
+a:link {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgray;
+}
+
+a:visited {
+    color: blue;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgray;
+}
+
+a:hover {
+    background-color: #fff96e;
+}
+
+h3 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    max-width: 40rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+    h4 span {
+        background-color: #d2e0f9;
+    }
+
+h4 a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 .container {
-    padding: 7rem;
+    padding: 2rem;
+    margin-left: 280px;
     max-width: 94rem;
 }
 
