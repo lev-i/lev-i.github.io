@@ -1,0 +1,21 @@
+﻿.desktop_only {
+    display: none;
+}
+
+.mobile_only {
+    display: block;
+}
+
+img {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+#sections {
+    display: none;
+}
+
+#container {
+    width: 80%;
+}
