@@ -22,7 +22,7 @@ a:hover {
 }
 
 h2 {
-    font-family: 'Hahmlet', serif;
+    font-family: 'Hahmlet', Georgia, serif;
     font-size: 2rem;
     font-weight: 500;
     border-bottom: 1px solid gray;
@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Hahmlet', serif;
+    font-family: 'Hahmlet', Georgia, serif;
     font-size: 1.7rem;
     font-weight: 500;
     line-height: 0.2rem;
