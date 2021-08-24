@@ -12,6 +12,7 @@ a:link {
 }
 
 a:visited {
+    color: blue;
     border-bottom: 1px solid;
     border-bottom-color: lightgray;
 }
@@ -46,10 +47,13 @@ h4 {
         background-color: #d2e0f9;
     }
 
-h4 a{
-    color: black;
-    text-decoration: none;
-}
+    h4 a{
+        color: black;
+        text-decoration: none;
+    }
+    h4 a:visited{
+        color: black;
+    }
 
 header {
     margin-top: 40px;

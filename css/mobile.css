@@ -12,6 +12,7 @@ a:link {
 }
 
 a:visited {
+    color: blue;
     border-bottom: 1px solid;
     border-bottom-color: lightgray;
 }
