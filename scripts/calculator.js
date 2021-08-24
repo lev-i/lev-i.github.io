@@ -4,32 +4,36 @@
         this.currentOperandTextElement = currentOperandTextElement
         this.clear()
     }
-
+    // clears out prior and current operands
     clear() {
         this.currentOperand = ''
         this.previousOperand = ''
         this.operation = undefined
     }
-
+    // removes the right-most digit in the current operand
     delete() {
         this.currentOperand = this.currentOperand.toString().slice(0, -1)
     }
 
+    // adds input digits to end of current operand
     appendNumber(number) {
         if (number === '.' && this.currentOperand.includes('.')) return
         this.currentOperand = this.currentOperand.toString() + number.toString()
     }
 
+    // sets up compute
     chooseOperation(operation) {
         if (this.currentOperand === '') return
         if (this.previousOperand !== '') {
             this.compute()
         }
+    // the current operand moves to previous after operation is complete
         this.operation = operation
         this.previousOperand = this.currentOperand
         this.currentOperand = ''
     }
 
+    // calculations to be done
     compute() {
         let computation
         const prev = parseFloat(this.previousOperand)
@@ -55,6 +59,8 @@
         this.operation = undefined
         this.previousOperand = ''
     }
+
+    // displays output from compute
 
     getDisplayNumber(number) {
         const stringNumber = number.toString()
@@ -85,7 +91,7 @@
     }
 }
 
-
+// sets up variables, returns first element (button) that matches
 const numberButtons = document.querySelectorAll('[data-number]')
 const operationButtons = document.querySelectorAll('[data-operation]')
 const equalsButton = document.querySelector('[data-equals]')
@@ -95,6 +101,8 @@ const previousOperandTextElement = document.querySelector('[data-previous-operan
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
+
+// adds class functionality to buttons
 
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
