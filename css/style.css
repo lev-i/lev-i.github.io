@@ -5,6 +5,21 @@
     line-height: 2.4rem;
 }
 
+a:link {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgray;
+}
+
+a:visited {
+    border-bottom: 1px solid;
+    border-bottom-color: lightgray;
+}
+
+a:hover {
+    background-color: #fff96e;
+}
+
 h2 {
     font-family: 'Hahmlet', Georgia, serif;
     font-size: 2.1rem;
@@ -39,22 +54,6 @@ h4 a{
 header {
     margin-top: 40px;
     margin-left: 40px;
-}
-
-a:link {
-    text-decoration: none;
-    border-bottom: 1px solid;
-    border-bottom-color: lightgray;
-}
-
-a:visited {
-    color: blue;
-    border-bottom: 1px solid;
-    border-bottom-color: lightgray;
-}
-
-a:hover {
-    background-color: #fff96e;
 }
 
 .container {
