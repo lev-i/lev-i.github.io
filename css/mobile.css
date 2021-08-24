@@ -14,11 +14,6 @@ h3 {
     font-size: 44px;
 }
 
-#content ul li {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
 .desktop_only {
     display: none;
 }
@@ -39,4 +34,8 @@ img {
 
 #container {
     width: 80%;
+}
+
+ul.ba {
+    list-style-type: none;
 }
