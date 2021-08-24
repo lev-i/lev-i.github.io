@@ -26,6 +26,7 @@ h2 {
     font-size: 66px;
     font-weight: 500;
     border-bottom: 1px solid gray;
+    padding: 5px;
     line-height: 96px;
 }
 
